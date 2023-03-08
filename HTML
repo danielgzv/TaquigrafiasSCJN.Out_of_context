@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+    <title>METRO Landing Page Design Concept</title>
+  </head>
+  <body class="is-unselectable">
+    <section class="hero is-fullheight-with-navbar">
+      <div class="hero-header">
+        <nav class="navbar is-transparent is-spaced">
+          <div class="container">
+            <div class="navbar-brand">
+              <h1 class="text-logo">
+                <a href="#" class="navbar-item"> METRO </a>
+              </h1>
+              <div
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active"> About </a>
+                <a class="navbar-item"> Projects </a>
+                <a class="navbar-item"> Gallery </a>
+                <a class="navbar-item"> Contact </a>
+                <span class="navbar-item">
+                  <a class="button donate-btn"> Donate </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h1 class="title">
+                what metro <br />
+                insight story
+              </h1>
+              <p class="subtitle">
+                Get your team in sync, no matter your location.<br />
+                Streamline processes, create team rituals, and
+                <br class="is-hidden-mobile" />
+                watch productivity soar.
+              </p>
+              <a class="button hero-btn-group"> donate </a>
+              <a class="button hero-btn-group-secondary"> view insight </a>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img src="assets/img/61bc4cfe325267fbfa18103a_7.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="level is-hidden-mobile">
+        <div class="level-item has-text-centered">
+          <div>
+            <img src="assets/img/61b3396bf788051ab8dae4b8_Group.svg" alt="" />
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <img src="assets/img/61b3396b7c3a37ad1da4816c_Group-2.svg" alt="" />
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <img src="assets/img/61b3396be2330c09be4c7c53_Group-3.svg" alt="" />
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <img src="assets/img/61b3396bf7880518a5dae4b9_Group-4.svg" alt="" />
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <img src="assets/img/61b3396bd15a0b25ee5fa752_Group-5.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+    </section>
+    <script src="dist/js/anime.min.js"></script>
+    <script>
+      anime({
+        targets: ".text-logo",
+        translateX: 250,
+        delay: anime.stagger(100), // increase delay by 100ms for each elements.
+        direction: "alternate",
+      });
+    </script>
+  </body>
+  <script src="dist/js/script.js"></script>
+</html>
